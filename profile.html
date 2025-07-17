@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Hap</title>
+    <link rel="stylesheet" href="styles_pp.css"> <!-- Add styles for profile -->
+</head>
+<body>
+    <header>
+        <h1>Welcome, <?php echo htmlspecialchars($user['name']); ?>!</h1>
+    </header>
+    <main>
+        <div class="profile-info">
+            <h2>Your Profile Information</h2>
+            <p><strong>Name:</strong> <?php echo htmlspecialchars($user['name']); ?></p>
+            <p><strong>Email:</strong> <?php echo htmlspecialchars($user['email']); ?></p>
+            <p><strong>Phone:</strong> <?php echo htmlspecialchars($user['phone']); ?></p>
+            <p><strong>Date of Birth:</strong> <?php echo htmlspecialchars($user['dob']); ?></p>
+        </div>
+        <div class="actions">
+            <button onclick="location.href='index.html'">Place Order</button>
+            <button onclick="location.href='logout.php'">Logout</button>
+        </div>
+    </main>
+</body>
+</html>

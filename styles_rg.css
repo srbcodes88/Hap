@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF; /* Alice Blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+.form-container {
+    background-color: #FFFFFF; /* White form background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    color: #483D8B; /* Dark Slate Blue heading */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555; /* Dark grey for labels */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #B0C4DE; /* Light Steel Blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #B0E0E6; /* Powder Blue background */
+    color: #483D8B; /* Dark Slate Blue text */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    border-color: #4682B4; /* Steel Blue border on focus */
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4682B4; /* Steel Blue button background */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b5998; /* Darker steel blue on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #483D8B; /* Dark Slate Blue for text */
+}
+
+a {
+    color: #5d8aa8; /* Light blue link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

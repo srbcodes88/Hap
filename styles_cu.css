@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Alice Blue */
+    margin: 10;
+    padding: 10;
+}
+
+h1, h2 {
+    color: #4682b4; /* Steel Blue */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #4682b4; /* Steel Blue */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Button Styling */
+button {
+    background-color: #b0e0e6; /* Powder Blue */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #87cefa; /* Light Sky Blue */
+}
+
+button:focus {
+    outline: none;
+    border: 2px solid #4682b4; /* Steel Blue */
+}
+
+/* Form Styling */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Contact Info Styling */
+.contact-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact-info p strong {
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4682b4; /* Steel Blue */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Hap</title>
+    <link rel="stylesheet" href="styles_lg.css">
+</head>
+<body>
+    <header>
+        <h1>Login to Hap</h1>
+    </header>
+    <main>
+        <form action="login.php" method="POST">
+            <label for="email">Email or Phone:</label>
+            <input type="text" name="email" required>
+
+            <label for="login_password">Password:</label>
+            <input type="password" name="login_password" required>
+            <?php if (!empty($error_message)) { ?>
+                <p style="color: red;"><?php echo $error_message; ?></p>
+            <?php } ?>
+
+            <button type="submit">Login</button>
+        </form>
+
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </main>
+</body>
+</html>

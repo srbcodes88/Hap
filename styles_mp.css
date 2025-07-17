@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF; /* Solid Alice Blue background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent; /* Transparent header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative; /* Make header relative for absolute positioning */
+}
+
+h1 {
+    color: #4682B4; /* Steel Blue heading */
+    font-size: 2.5em; /* Larger heading size */
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px; /* Increased space between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5d8aa8; /* Light blue link */
+    font-weight: bold;
+    font-size: 1.2em; /* Larger font for navigation links */
+}
+
+nav ul li a:hover {
+    color: #4682B4; /* Darker blue on hover */
+    text-decoration: underline;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.auth-links {
+    position: absolute; /* Position absolute for top right corner */
+    right: 20px; /* Distance from the right edge */
+    top: 20px; /* Distance from the top edge */
+}
+
+.auth-links .btn {
+    margin-left: 10px; /* Space between buttons */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Button padding */
+    background-color: #4682B4; /* Button background color */
+    color: #FFFFFF; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Font size for buttons */
+}
+
+.auth-links .btn:hover {
+    background-color: #5d8aa8; /* Darker button on hover */
+}
+
+.categories {
+    background-color: #4682B4; /* Light Cyan background for the categories section */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.category {
+    background-color: #FFFFFF; /* White background for individual categories */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    padding: 20px;
+    width: 30%; /* Equal width for categories */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for hover effect */
+}
+
+.category img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.category h3 {
+    color: #4682B4; /* Steel Blue for category titles */
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.category p {
+    color: #5d8aa8; /* Soft blue for description text */
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.category:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; /* Transparent footer */
+}
+
+footer p {
+    color: #4682B4; /* Steel Blue for footer text */
+    font-size: 1.1em;
+}
